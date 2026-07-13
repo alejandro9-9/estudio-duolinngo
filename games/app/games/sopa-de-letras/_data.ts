@@ -1,0 +1,1 @@
+export const WORDS = ["MUSICA", "PINTURA", "CIENCIA", "DEPORTE", "PLANETA", "OCEANO"];

@@ -1,0 +1,47 @@
+.page {
+  font-family: "Nunito", sans-serif;
+  background-color: #131f24;
+  color: #eeeeee;
+}
+
+.card {
+  transition: all 0.2s ease;
+  border-bottom-width: 4px;
+}
+
+.card:active {
+  border-bottom-width: 0px;
+  transform: translateY(2px);
+}
+
+.lockedCard {
+  opacity: 0.45;
+  filter: grayscale(1);
+}
+
+.timerWarning {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.cell {
+  transition: background-color 0.15s ease;
+  user-select: none;
+}
+
+.cellSelected {
+  background-color: #1cb0f6;
+}
+
+.cellFound {
+  background-color: #58cc02;
+}

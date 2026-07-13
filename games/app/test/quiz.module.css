@@ -1,0 +1,33 @@
+.page {
+  font-family: "Nunito", sans-serif;
+  background-color: #131f24;
+  color: #eeeeee;
+}
+
+.optionButton {
+  transition: all 0.2s ease;
+  border-bottom-width: 4px;
+}
+
+.optionButton:active {
+  border-bottom-width: 0px;
+  transform: translateY(2px);
+}
+
+.progressBarFill {
+  transition: width 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.characterBounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
